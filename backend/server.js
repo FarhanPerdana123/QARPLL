@@ -1,4 +1,5 @@
-require('dotenv').config();
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '.env') });
 const mongoose = require("mongoose");
 const http = require('http');           
 const { Server } = require("socket.io");
@@ -14,9 +15,10 @@ const PORT = process.env.PORT || 5001;
 const server = http.createServer(app); 
 
 // Socket.IO Setup
+const allowedOrigins = [process.env.FRONTEND_URL || "http://localhost:3000", "http://127.0.0.1:3000"];
 const io = new Server(server, {
   cors: {
-    origin: process.env.FRONTEND_URL,
+    origin: allowedOrigins,
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   }

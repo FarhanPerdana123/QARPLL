@@ -1,0 +1,30 @@
+[
+    {
+        "Path":  ".\\experiments\\v3\\cinema-booking.v3.spec.ts",
+        "Hash":  "5B93945A8247A6AF7B4FBCA6C18A9887AB9B307D5D8FE610CD2DCE8398322E40"
+    },
+    {
+        "Path":  ".\\experiments\\v3\\pages\\booking-confirm.page.ts",
+        "Hash":  "6804FDD57D967A1B89CCBB9EBB88381215563445FF909210EA1224C302DB3BFD"
+    },
+    {
+        "Path":  ".\\experiments\\v3\\pages\\booking-success.page.ts",
+        "Hash":  "877760AD1723F60A9336F32F730AA764131E6BDDB0B1B834D556F8933E41B5FD"
+    },
+    {
+        "Path":  ".\\experiments\\v3\\pages\\movie-list.page.ts",
+        "Hash":  "1110599B6C65D8B71884D193CD764FE92DB4DC17947D0CF9670C382AD845628F"
+    },
+    {
+        "Path":  ".\\experiments\\v3\\pages\\payment.page.ts",
+        "Hash":  "E3F556283D69168D3334448A9D4A306621AD348B2BBB0ABBD6D324130FF4D4FE"
+    },
+    {
+        "Path":  ".\\experiments\\v3\\pages\\seat-selection.page.ts",
+        "Hash":  "0D8C8FF8D3F93A1F204502C270EEAD92B83627FBB0793385FAE6E85C361D1259"
+    },
+    {
+        "Path":  ".\\experiments\\v3\\pages\\showtime.page.ts",
+        "Hash":  "82CE2888B33295E07B7C0BC0F6B343D89C02C75D5FD691AC6A5F24627906EF1C"
+    }
+]

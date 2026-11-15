@@ -1,0 +1,276 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "experiments/playwright.v1.config.ts"
+    ],
+    "configFile": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\experiments\\playwright.v1.config.ts",
+    "rootDir": "D:/Farhan/Semester 7/RPL Lanjut/Cinema-Booking-System/experiments/v1",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 180000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Farhan/Semester 7/RPL Lanjut/Cinema-Booking-System/artifacts/execution/v1/20261115-212611/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "D:/Farhan/Semester 7/RPL Lanjut/Cinema-Booking-System/experiments/v1",
+        "testIgnore": [],
+        "testMatch": [
+          "cinema-booking.v1.spec.ts"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v1\\20261115-212611\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "Chromium",
+        "testDir": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\experiments\\v1",
+        "snapshotDir": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\experiments\\v1",
+        "testIgnore": [],
+        "testMatch": "cinema-booking.v1.spec.ts",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "headless": true,
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "video": "retain-on-failure",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "ignoreHTTPSErrors": true,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36",
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "Chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v1\\20261115-212611\\html-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v1\\20261115-212611\\report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "cinema-booking.v1.spec.ts",
+      "file": "cinema-booking.v1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Baseline Eksperimen V1 - Pengujian Pemesanan Tiket Bioskop",
+          "file": "cinema-booking.v1.spec.ts",
+          "line": 181,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Skenario 1: Pemesanan tiket berhasil dari memilih film, jadwal, kursi, pembayaran, sampai e-ticket",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5861,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-15T14:27:02.337Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9a4c6dd008c278465681-b3ae314fbddfb1bb0ace",
+              "file": "cinema-booking.v1.spec.ts",
+              "line": 183,
+              "column": 3
+            },
+            {
+              "title": "Skenario 2: Kursi yang sudah booked tidak dapat dipilih",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 46435,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-15T14:27:08.632Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v1\\20261115-212611\\test-results\\cinema-booking.v1-Baseline-ec038--booked-tidak-dapat-dipilih-Chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v1\\20261115-212611\\test-results\\cinema-booking.v1-Baseline-ec038--booked-tidak-dapat-dipilih-Chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v1\\20261115-212611\\test-results\\cinema-booking.v1-Baseline-ec038--booked-tidak-dapat-dipilih-Chromium\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v1\\20261115-212611\\test-results\\cinema-booking.v1-Baseline-ec038--booked-tidak-dapat-dipilih-Chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9a4c6dd008c278465681-dfee10c5625b9b5333e1",
+              "file": "cinema-booking.v1.spec.ts",
+              "line": 288,
+              "column": 3
+            },
+            {
+              "title": "Skenario 3: Pembayaran mendapat HTTP 504 sehingga pengguna melihat kegagalan dan tidak diarahkan ke halaman sukses",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1712,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-15T14:27:56.004Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9a4c6dd008c278465681-466882f65a153e3b62b6",
+              "file": "cinema-booking.v1.spec.ts",
+              "line": 319,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-15T14:27:01.644Z",
+    "duration": 56329.808,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

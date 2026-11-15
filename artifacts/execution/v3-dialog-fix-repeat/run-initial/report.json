@@ -1,0 +1,308 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "experiments/playwright.v3-dialog-fix.repeat.config.ts",
+      "--list"
+    ],
+    "configFile": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\experiments\\playwright.v3-dialog-fix.repeat.config.ts",
+    "rootDir": "D:/Farhan/Semester 7/RPL Lanjut/Cinema-Booking-System/experiments/v3-dialog-fix",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 300000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Farhan/Semester 7/RPL Lanjut/Cinema-Booking-System/artifacts/execution/v3-dialog-fix-repeat/run-initial/test-results",
+        "repeatEach": 5,
+        "retries": 0,
+        "metadata": {},
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "D:/Farhan/Semester 7/RPL Lanjut/Cinema-Booking-System/experiments/v3-dialog-fix",
+        "testIgnore": [],
+        "testMatch": [
+          "cinema-booking.v3-dialog-fix.spec.ts"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v3-dialog-fix-repeat\\run-initial\\test-results",
+        "repeatEach": 5,
+        "retries": 0,
+        "metadata": {},
+        "name": "Chromium",
+        "testDir": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\experiments\\v3-dialog-fix",
+        "snapshotDir": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\experiments\\v3-dialog-fix",
+        "testIgnore": [],
+        "testMatch": "cinema-booking.v3-dialog-fix.spec.ts",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "headless": true,
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "video": "retain-on-failure",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "ignoreHTTPSErrors": true,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36",
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "Chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v3-dialog-fix-repeat\\run-initial\\html-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v3-dialog-fix-repeat\\run-initial\\report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "cinema-booking.v3-dialog-fix.spec.ts",
+      "file": "cinema-booking.v3-dialog-fix.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Eksperimen V3 (Dialog Fix) - Pengujian Pemesanan Tiket Bioskop",
+          "file": "cinema-booking.v3-dialog-fix.spec.ts",
+          "line": 177,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Skenario 1: Pemesanan tiket berhasil dari memilih film, jadwal, kursi, pembayaran, sampai e-ticket",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1e8006e4710af3e207df-6e8265944f6234b79781",
+              "file": "cinema-booking.v3-dialog-fix.spec.ts",
+              "line": 179,
+              "column": 3
+            },
+            {
+              "title": "Skenario 2: Kursi yang sudah booked tidak dapat dipilih",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1e8006e4710af3e207df-6a68a91a7aa3e2323682",
+              "file": "cinema-booking.v3-dialog-fix.spec.ts",
+              "line": 305,
+              "column": 3
+            },
+            {
+              "title": "Skenario 3: Pembayaran mendapat HTTP 504 sehingga pengguna melihat kegagalan dan tidak diarahkan ke halaman sukses",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1e8006e4710af3e207df-b0371db5ba0f205e745b",
+              "file": "cinema-booking.v3-dialog-fix.spec.ts",
+              "line": 339,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-15T17:19:51.856Z",
+    "duration": 211.962,
+    "expected": 0,
+    "skipped": 15,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

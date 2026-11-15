@@ -12,8 +12,9 @@ const notificationRoutes = require('./routes/notificationRoutes');
 
 const app = express();
 
+const allowedOrigins = [process.env.FRONTEND_URL || 'http://localhost:3000', 'http://127.0.0.1:3000'];
 app.use(cors({
-    origin: process.env.FRONTEND_URL,
+    origin: allowedOrigins,
     credentials: true
 }));
 app.use(express.json());

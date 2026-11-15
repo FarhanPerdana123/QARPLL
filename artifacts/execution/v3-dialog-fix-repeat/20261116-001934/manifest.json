@@ -1,0 +1,30 @@
+[
+    {
+        "Path":  ".\\experiments\\v3-dialog-fix\\cinema-booking.v3-dialog-fix.spec.ts",
+        "Hash":  "E0B781BEF3F9300DE5350D2D9C1ED5C08EA8CCE067C19182B4B648BDAC57AEAB"
+    },
+    {
+        "Path":  ".\\experiments\\v3-dialog-fix\\pages\\booking-confirm.page.ts",
+        "Hash":  "6B134608D6A1BAA3DBDEA928E67B2A13F24367D5E193DFAD3D0A2E6325439B82"
+    },
+    {
+        "Path":  ".\\experiments\\v3-dialog-fix\\pages\\booking-success.page.ts",
+        "Hash":  "E7FFCDF62319D14DE354C0BCD55E1CC4AE808C97056FE0E5BA53BC27D387CFCE"
+    },
+    {
+        "Path":  ".\\experiments\\v3-dialog-fix\\pages\\movie-list.page.ts",
+        "Hash":  "1617F058FB8B2DD725B32327FE9F6042E32069873F6DD710C7E3AAB5761F3B1E"
+    },
+    {
+        "Path":  ".\\experiments\\v3-dialog-fix\\pages\\payment.page.ts",
+        "Hash":  "E07C9F3E073D7F609C4A41047A82AA1396C9A91C532DFE0F1621A0DE50735542"
+    },
+    {
+        "Path":  ".\\experiments\\v3-dialog-fix\\pages\\seat-selection.page.ts",
+        "Hash":  "105191693C4B7B63647E0233102E1DD0748CD96DD87C2014FF7186B04C46C94C"
+    },
+    {
+        "Path":  ".\\experiments\\v3-dialog-fix\\pages\\showtime.page.ts",
+        "Hash":  "CB21A191E67A73C9ED13291CEA5281E1B13357A9BB8B41D095D288998049D2AC"
+    }
+]

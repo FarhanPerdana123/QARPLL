@@ -1,0 +1,17 @@
+{
+  "name": "cinema-booking-system-qa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright QA Automation Test Runner for Cinema Booking System",
+  "scripts": {
+    "test:ui:list": "playwright test --list",
+    "test:ui": "playwright test",
+    "test:ui:report": "playwright show-report",
+    "typecheck:tests": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^20.17.10",
+    "typescript": "^5.7.2"
+  }
+}

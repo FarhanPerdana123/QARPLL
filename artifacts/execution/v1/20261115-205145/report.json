@@ -1,0 +1,136 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "experiments/playwright.v1.config.ts"
+    ],
+    "configFile": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\experiments\\playwright.v1.config.ts",
+    "rootDir": "D:/Farhan/Semester 7/RPL Lanjut/Cinema-Booking-System/experiments/v1",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Farhan/Semester 7/RPL Lanjut/Cinema-Booking-System/artifacts/execution/v1/20261115-205145/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "D:/Farhan/Semester 7/RPL Lanjut/Cinema-Booking-System/experiments/v1",
+        "testIgnore": [],
+        "testMatch": [
+          "cinema-booking.v1.spec.ts"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v1\\20261115-205145\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "Chromium",
+        "testDir": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\experiments\\v1",
+        "snapshotDir": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\experiments\\v1",
+        "testIgnore": [],
+        "testMatch": "cinema-booking.v1.spec.ts",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "headless": true,
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "video": "retain-on-failure",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "ignoreHTTPSErrors": true,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36",
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "Chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v1\\20261115-205145\\html-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "D:\\Farhan\\Semester 7\\RPL Lanjut\\Cinema-Booking-System\\artifacts\\execution\\v1\\20261115-205145\\report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm --prefix frontend start",
+      "url": "http://localhost:3000",
+      "reuseExistingServer": true,
+      "timeout": 120000,
+      "env": {
+        "BROWSER": "none",
+        "CI": "true",
+        "PORT": "3000"
+      }
+    }
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "Error: Process from config.webServer was not able to start. Exit code: 4294963238",
+      "stack": "Error: Process from config.webServer was not able to start. Exit code: 4294963238"
+    }
+  ],
+  "stats": {
+    "startTime": "2026-11-15T13:52:09.667Z",
+    "duration": 690.8720000000001,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
